@@ -16,8 +16,18 @@ namespace ConsoleApp_First
                 Console.WriteLine("Inner Loop" + iterator);// Execute 2 times
             }
         
-                Console.WriteLine("-----------------------------For loop----------------------------------");//For loop
+                
         }
+            Console.WriteLine("-----------------------------For loop----------------------------------");//For loop
+            {
+                for (int iterator = 0; iterator < 5; iterator++)
+                {
+                    Console.WriteLine("Counter" + iterator);// 
+                    
+                }
+                Console.WriteLine("-----------------------------For loop----------------------------------");//For loop
+            }
+
 
             string[] brandTV= { "LG","SONY","SAMSUNG","TCL","JVC"};
 
