@@ -5,6 +5,7 @@ namespace ConsoleApp_First
     class Program
     {
         static void Main(string[] args)
+
         {
        for (int iterator = 0; iterator<3; iterator++)
         {
@@ -15,7 +16,7 @@ namespace ConsoleApp_First
                 Console.WriteLine("Inner Loop" + iterator);// Execute 2 times
             }
         
-            Console.WriteLine("-----------------------------For loop----------------------------------");//For loop
+                Console.WriteLine("-----------------------------For loop----------------------------------");//For loop
         }
 
             string[] brandTV= { "LG","SONY","SAMSUNG","TCL","JVC"};
